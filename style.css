@@ -28,7 +28,7 @@
 
 .box_right {
   margin: 40px 40px 40px 20px;
-  padding: 40px;
+  padding: 20px;
 }
 
 header img {
@@ -78,4 +78,24 @@ h4 {
 
 pre {
   background-color: #f4f4f4;
+  padding: 10px;
+}
+
+footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 40px;
+  background-color: #f4f4f4;
+}
+
+footer .github_icon {
+  margin-right: 10px;
+}
+
+.github
+{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
