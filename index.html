@@ -222,7 +222,7 @@ def parse_int(string)
   summa = Array.new(0)
   string. gsub!(/-| and /, ' ')
   string. split. each do |x|
-     
+
      n = numbers[x]
      case n
        when 100
@@ -230,12 +230,12 @@ def parse_int(string)
        when 1000, 1000000
          summa &lt;&lt; (m * n)
          m = 0
-     
+
        else
          m += n
      end
    end
-   
+
   return m + summa. sum
 end
 							</code>
